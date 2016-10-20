@@ -1,0 +1,26 @@
+{
+    "originalText": null,
+    "cleanText": "Test string 5 @has +filter",
+    "createdAt": {
+        "date": "2015-11-22 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "UTC"
+    },
+    "addOns": {
+        "foo": "bar"
+    },
+    "priority": "A",
+    "projects": [
+        "filter"
+    ],
+    "contexts": [
+        "has"
+    ],
+    "completed": true,
+    "completedAt": {
+        "date": "2015-12-23 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "UTC"
+    },
+    "string": "x 2015-12-23 (A) 2015-11-22 Test string 5 @has +filter foo:bar"
+}
