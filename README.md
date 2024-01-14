@@ -18,7 +18,7 @@ This will return a TodoTxtTask object that includes all values ([see todo.txt ru
 
 ```
 Get raw string:
-$task->getRawString()   // 'x 2016-11-22 (A) 2016-01-02 Tell @me to write the @README for +todoTxtParser due:2016-09-05'
+$task->getOriginalText()   // 'x 2016-11-22 (A) 2016-01-02 Tell @me to write the @README for +todoTxtParser due:2016-09-05'
 
 Get clean string (only readable text): 
 $task->getCleanText()   // 'Tell @me to write the @README for +todoTxtParser'
